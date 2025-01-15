@@ -15,7 +15,7 @@ sqlservername = "storeserver.database.windows.net"
 sqldb = "storedb"
 sqlport = 1433
 User = "Rahul"
-password = "Data@123"
+password = "*****"
 sqlserverurl = "jdbc:sqlserver://{0}:{1};database={2}".format(sqlservername, sqlport, sqldb)
 connectionProperties = {
     "user": User,
