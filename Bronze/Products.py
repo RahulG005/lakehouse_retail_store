@@ -86,7 +86,7 @@ print(products_df_last_modified_date)
 # COMMAND ----------
 
 import pymssql
-conn = pymssql.connect("storeserver.database.windows.net", "Rahul@storeserver", "Data@123", "storedb")
+conn = pymssql.connect("storeserver.database.windows.net", "Rahul@storeserver", "*****", "storedb")
 cursor = conn.cursor(as_dict=True)
 
 # COMMAND ----------
